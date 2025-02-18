@@ -1,0 +1,106 @@
+body {
+background-color: #003135;
+color: #AFDDE5;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #024950;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #AFDDE5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #AFDDE5;
+  color: #003135;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0FA4AF;
+  color: #AFDDE5;
+}
+
+.container {
+display: flex;
+flex-wrap: nowrap;
+border-radius: 10px;
+overflow: hidden;
+overflow-x: scroll;
+flex-direction: row;
+/* justify-content: space-between; */
+width: 100%;
+}
+
+.inFlex {
+background-color: #0FA4AF;
+color: #003135;
+margin-right: 5px;
+}
+
+.inFlex > h3 {
+font-size: 12px;
+color: #6b6566;
+padding: 5px;
+font-style: italic;
+}
+
+.inFlex > h4 {
+font-size:18px;
+padding: 5px;
+}
+
+.inFlex > p {
+font-size: 15px;
+padding: 5px;
+}
+
+.inFlex > a {
+color: #AFDDE5;
+font-size: 12px;
+padding: 5px;
+}
+
+.inFlex > img {
+border: 0;
+object-fit: contain;
+width: 100%;
+}
+
+.inFlex:last-child{
+margin-right: 0;
+}
+
+.socials {
+background-color: #024950;
+border-radius: 10px;
+text-align: center;
+overflow:hidden;
+position:absolute; right:10px;
+width: 200px;
+}
+
+.socials > p {
+font-size: 12px;
+}
+
+h2 {
+text-align: center;
+font-size: 12px;}
+
+h1 {
+text-align: center; }
+
+img {
+position: relative;
+z-index: 1;
+}
